@@ -13,6 +13,8 @@
 		2408B21E207E88C800839287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2408B21D207E88C800839287 /* Assets.xcassets */; };
 		2408B221207E88C800839287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2408B21F207E88C800839287 /* LaunchScreen.storyboard */; };
 		2408B224207E88C800839287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408B223207E88C800839287 /* main.m */; };
+		2408B22C207E8C7400839287 /* MDPatient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408B22B207E8C7400839287 /* MDPatient.m */; };
+		2408B22F207E902400839287 /* MDDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2408B22E207E902400839287 /* MDDoctor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2408B220207E88C800839287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2408B222207E88C800839287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2408B223207E88C800839287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2408B22A207E8C7400839287 /* MDPatient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDPatient.h; sourceTree = "<group>"; };
+		2408B22B207E8C7400839287 /* MDPatient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDPatient.m; sourceTree = "<group>"; };
+		2408B22D207E902400839287 /* MDDoctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDDoctor.h; sourceTree = "<group>"; };
+		2408B22E207E902400839287 /* MDDoctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDDoctor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		2408B213207E88C400839287 /* DeligatesTest */ = {
 			isa = PBXGroup;
 			children = (
+				2408B22A207E8C7400839287 /* MDPatient.h */,
+				2408B22B207E8C7400839287 /* MDPatient.m */,
+				2408B22D207E902400839287 /* MDDoctor.h */,
+				2408B22E207E902400839287 /* MDDoctor.m */,
 				2408B214207E88C400839287 /* AppDelegate.h */,
 				2408B215207E88C400839287 /* AppDelegate.m */,
 				2408B217207E88C400839287 /* ViewController.h */,
@@ -141,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2408B22C207E8C7400839287 /* MDPatient.m in Sources */,
 				2408B219207E88C400839287 /* ViewController.m in Sources */,
+				2408B22F207E902400839287 /* MDDoctor.m in Sources */,
 				2408B224207E88C800839287 /* main.m in Sources */,
 				2408B216207E88C400839287 /* AppDelegate.m in Sources */,
 			);
